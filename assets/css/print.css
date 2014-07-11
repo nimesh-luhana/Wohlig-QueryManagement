@@ -1,0 +1,141 @@
+/* CSS Document */
+
+table {
+	border-collapse: collapse;
+}
+table, td, th {
+	border: 1px solid #000;
+}
+.ui-widget select {
+	display: none;
+}
+.center {
+	text-align: center;
+}
+.btn {
+	margin-right: 20px;
+}
+.content {
+	min-height: 505px;
+}
+.detail {
+	display: none;
+}
+.order {
+	display: none;
+}
+.bold {
+	font-weight: bold;
+}
+.bordered {
+	margin: 10px 0px;
+}
+.print {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px
+}
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+}
+table.dataTable td {
+	padding: 3px 10px;
+}
+.table-bordered th, .table-bordered td {
+}
+.table th, .table td {
+	padding: 8px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	font-size: 12px;
+}
+user agent stylesheettd, th {
+	display: table-cell;
+	vertical-align: inherit;
+}
+Inherited from table#datatable.table.table-bordered.dataTable .table-bordered {
+	border-collapse: separate;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+user agent stylesheettable {
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+}
+.head1 h1 {
+	margin-top: 25px;
+	text-align: center;
+}
+.head1 img {
+	float: right;
+	width: 100px;
+	margin-top: -24px;
+}
+.address {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 12px;
+}
+.table1 {
+	margin-top: 40px;
+}
+.table2 {
+	margin-top: -149px;
+	float:right;
+	width:27%;
+}
+.table2 td {
+	line-height:20px;
+	}
+td.total:nth-child(2) {
+	text-align: right;
+}
+td.total {
+	border: 0px solid;
+	line-height: 18px;
+}
+.custommer {
+	width: 50%;
+	font-size: 12px;
+	border: hidden;
+}
+.custommer td, custommer tr {
+	border: hidden;
+}
+.printcomment td {
+	padding: 0px;
+	font-size: 10px;
+}
+.remarks {
+	font-size: 10px;
+}
+.footertext {
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	margin-top: 78px;
+}
+.td right {
+	text-align:right;
+	}
+.print .head1 {
+	height: 200px;
+}
+th.tabletd {
+	width:50px;
+	}
+table.tableeye  {
+	line-height:30px;
+	}

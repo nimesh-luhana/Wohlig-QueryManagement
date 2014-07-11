@@ -1,0 +1,12 @@
+{
+dob: "demo",
+address: "AA?AAA",
+kjslkdjsd: "Androi",
+tags:["","",""]
+}
+
+
+$abc=json_decode();
+echo $abc->dob;  // demo
+
+[{},{}]
