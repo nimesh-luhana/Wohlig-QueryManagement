@@ -5,9 +5,15 @@ public function display_db_user()
 {
      return $table=$this->db->query("SELECT * FROM `user`")->result();
 }
-public function display_db_company()
+public function display_db_company($segment)
 {
-    return $table=$this->db->query("SELECT * FROM `company`")->result();
+    if($segment!=NULL)
+    return $table=$this->db->query("SELECT * FROM `company` LIMIT $segment,10;")->result();
+    else
+    {
+    $segment=0;
+     return $table=$this->db->query("SELECT * FROM `company` LIMIT $segment,10;")->result();
+    }
 }
 
 public function display_db_usercompany()

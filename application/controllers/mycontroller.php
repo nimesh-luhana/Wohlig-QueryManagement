@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php 
 class Mycontroller extends CI_Controller
 {
     
@@ -360,7 +360,16 @@ $this->form_validation->set_rules('email', 'Email', 'required|trim');
     
     public function display_data_company()
     {
-         $data['table']=$this->display->display_db_company();  
+            $config['base_url']=site_url().'/mycontroller/display_data_company';
+                                          //    $limit=$this->uri->segment(3);
+                                      
+            $config['total_rows']=30;
+            $config['per_page']=10;
+        $this->pagination->initialize($config);
+     $segment=$this->uri->segment(3);
+            
+        
+         $data['table']=$this->display->display_db_company($segment);  
         $data['page']="display_company";
     $this->load->view('template',$data);
     }

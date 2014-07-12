@@ -21,10 +21,14 @@
 			<td><?php echo $row->name;?></td>
 			<td><?php echo $row->json;?></td>
 			
+        
             <td class="ms"><div class="btn-group"> <a href="<?php echo site_url('mycontroller/edit_company?id=').$row->id;?>" class="btn btn-small" rel="tooltip" data-placement="left" data-original-title=" edit "><i class="gicon-edit"></i></a> <a class="btn btn-small" rel="tooltip" data-placement="top" data-original-title="View"><i class="gicon-eye-open"></i></a> <a href="<?php echo site_url('mycontroller/delete_company?id=').$row->id;?>" class="btn  btn-small" rel="tooltip" data-placement="bottom" data-original-title="Remove"><i class="gicon-remove "></i></a> </div></td>
 		</tr>
-        	<?php } ?>
+        	<?php }
+                    
+                    ?>
                 </tbody>
+                <?php echo $this->pagination->create_links();?>
  </div>               
  </div>
           
